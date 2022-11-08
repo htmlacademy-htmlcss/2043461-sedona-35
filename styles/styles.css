@@ -1,0 +1,208 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #FFFFFF;
+  margin: 0;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 0;
+}
+
+/*Pages*/
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  line-height: 26px;
+}
+
+.main-index {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("../images/body/mountins.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/*List*/
+.advantages {
+  text-align: center;
+}
+
+.intro-Sedona {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 620px;
+  text-align: center;
+  align-self: center;
+}
+
+.intro-reasons {
+  font-size: 22px;
+  line-height: 26px;
+  width: 654px;
+  text-align: center;
+  align-self: center;
+}
+
+/*Title*/
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.search-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/* Advantages*/
+.blue {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.light-blue-city {
+  padding: 80px 85px 81px 85px;
+  background-color: #83B3D31E;
+  width: 400px;
+}
+
+.hotel-search {
+  text-align: center;
+  padding: 0;
+  margin-top: 91px;
+}
+
+.search-date {
+  width: 592px;
+}
+
+.letter {
+  padding: 94px 200px;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  background-image: url("../images/body/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-align: center;
+  align-self: center;
+}
+
+.htmlacademy-link {
+  margin-left: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 32px;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbs {
+  color: #3F5E72;
+}
+
+.breadcrumbs-link {
+  color: #000000;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.sorting-container {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.product-card-price {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  align-items: center;
+}
+
+.product-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.pagination-container {
+  background-color: #FFFFFF;
+  list-style-type: none;
+}
+
+.pagination-link {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  text-decoration: none;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
